@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4A837">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tutor buổi 1 - Bài 1"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/lvStaffs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FFC107"
+        android:dividerHeight="1dp"
+        android:background="@color/white"/>
+
+
+</LinearLayout>
